@@ -7,6 +7,12 @@
 3. create an spn account and store the credentials in the AKV
 4. scanning ADLS, combination of key vault and MI.
 5. Scanning Synapse SQL Pool - using MI.
+
+CREATE USER [Purview_MI] FROM EXTERNAL PROVIDER
+GO
+EXEC sp_addrolemember 'db_owner', [Purview_MI]
+GO
+
 6. Getting lineage from adf (This will require rerunning the ADF pipeline. Edit the ADF pipeline to shorten the runtime)
 7. Adding a custom classification and using it during a scan
 8. Bulk impupload of glossary and attaching it to the data
