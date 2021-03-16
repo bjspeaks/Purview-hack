@@ -17,4 +17,4 @@
 
 
 
-Hints: &feature.ext.datasource={"azureSynapse":"true"}
+# Hints: &feature.ext.datasource={"azureSynapse":"true"}
