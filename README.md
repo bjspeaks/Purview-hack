@@ -12,3 +12,9 @@
 8. Bulk impupload of glossary and attaching it to the data
 9. Synapse Table scan - combination of key vault and MI.
 10. Stretch objective - scan the entire resource group. 
+
+
+
+
+
+Hints: &feature.ext.datasource={"azureSynapse":"true"}
