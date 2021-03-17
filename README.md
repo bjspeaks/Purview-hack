@@ -13,7 +13,7 @@
 6. Getting lineage from adf (This will require rerunning the ADF pipeline. Edit the ADF pipeline to shorten the runtime)
 7. Adding a custom classification and using it during a scan
 8. Bulk impupload of glossary and attaching it to the data
-9. Synapse Table scan (scoped scan) - combination of key vault and MSI.
+9. ADLS sub-folder scan (scoped scan) - combination of key vault and MSI.
 10. Stretch objective - scan the entire resource group. 
 
 
