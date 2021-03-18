@@ -3,19 +3,16 @@
 ## The different activities that the hack team need to complete are:
 
 1. Create the Purview Account
-2. Setup a purview account
-3. create an Azure key vault
-4. create an spn account and store the credentials in the AKV
-5. scanning ADLS, combination of key vault and MI.
-6. Scanning Synapse SQL Pool - using MI.
-
-
-
+2. create an Azure key vault
+3. create an spn account and store the credentials in the AKV
+4. scanning ADLS, combination of key vault and MI.
+5. Scanning Synapse SQL Pool - using MI.
 6. Getting lineage from adf (This will require rerunning the ADF pipeline. Edit the ADF pipeline to shorten the runtime)
 7. Adding a custom classification and using it during a scan
 8. Bulk impupload of glossary and attaching it to the data
 9. ADLS sub-folder scan (scoped scan) - combination of key vault and MSI.
-10. Stretch objective - scan the entire resource group. 
+10. Add the purview account to Synapse workspace and try to search for files/folders
+11. Stretch objective - scan the entire resource group. 
 
 
 
