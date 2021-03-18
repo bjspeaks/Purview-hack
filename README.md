@@ -2,11 +2,12 @@
 
 ## The different activities that the hack team need to complete are:
 
-1. Setup a purview account
-2. create an Azure key vault
-3. create an spn account and store the credentials in the AKV
-4. scanning ADLS, combination of key vault and MI.
-5. Scanning Synapse SQL Pool - using MI.
+1. Create the Purview Account
+2. Setup a purview account
+3. create an Azure key vault
+4. create an spn account and store the credentials in the AKV
+5. scanning ADLS, combination of key vault and MI.
+6. Scanning Synapse SQL Pool - using MI.
 
 
 
